@@ -104,7 +104,7 @@ namespace Calculator_WPF
             }
             else if (operatorResult == "%")
             {
-                Netice.Text = (result / 100) /*Double.Parse(Netice.Text))*/.ToString();
+                Netice.Text = (result / 100).ToString();
             }
 
             result = Double.Parse(Netice.Text);
@@ -161,7 +161,7 @@ namespace Calculator_WPF
             }
             else if (operatorResult == "%")
             {
-                Netice.Text = (result / 100) /*Double.Parse(Netice.Text))*/.ToString();
+                Netice.Text = (result / 100).ToString();
             }
 
             result = Double.Parse(Netice.Text);
